@@ -1,6 +1,6 @@
 // problem01();
 // problem02();
-problem03();
+// problem03();
 // problem04();
 
 //Put the start of your program in a main function.
@@ -13,10 +13,10 @@ function problem01()
     let userInput = "";
     while(userInput !== "q")
     {
-        userInput = prompt("Type anything in! Enter q to quit.");
         array.push(userInput);
+        userInput = prompt("Type anything in! Enter q to quit.");
     }
-    for (let i=0;i<array.length-1;i++)
+    for (let i=0;i<array.length;i++)
     {
         console.log(array[i])
     }
